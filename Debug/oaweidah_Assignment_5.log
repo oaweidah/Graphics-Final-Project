@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\3388\oaweidah_Assignment_5\Axes.cpp(16,37): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\3388\oaweidah_Assignment_5\Axes.cpp(16,53): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\3388\oaweidah_Assignment_5\main.cpp(97): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\3388\oaweidah_Assignment_5\main.cpp(184,23): warning C4018: '<': signed/unsigned mismatch
+C:\3388\oaweidah_Assignment_5\main.cpp(182,22): warning C4101: 'p1to2': unreferenced local variable
+C:\3388\oaweidah_Assignment_5\main.cpp(182,29): warning C4101: 'p1to3': unreferenced local variable
+C:\3388\oaweidah_Assignment_5\main.cpp(239,30): warning C4018: '<': signed/unsigned mismatch
+C:\3388\oaweidah_Assignment_5\main.cpp(251,27): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\3388\oaweidah_Assignment_5\main.cpp(281,34): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+C:\3388\oaweidah_Assignment_5\main.cpp(366,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  oaweidah_Assignment_5.vcxproj -> C:\3388\oaweidah_Assignment_5\Debug\oaweidah_Assignment_5.exe

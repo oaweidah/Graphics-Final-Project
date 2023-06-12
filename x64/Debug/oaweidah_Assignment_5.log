@@ -1,0 +1,53 @@
+﻿  Axes.cpp
+C:\3388\oaweidah_Assignment_5\Axes.cpp(15,37): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\3388\oaweidah_Assignment_5\Axes.cpp(15,53): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+C:\3388\oaweidah_Assignment_5\Axes.cpp(15,37): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\3388\oaweidah_Assignment_5\Axes.cpp(15,53): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\3388\oaweidah_Assignment_5\main.cpp(97): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\3388\oaweidah_Assignment_5\main.cpp(181,32): warning C4101: 'p13': unreferenced local variable
+C:\3388\oaweidah_Assignment_5\main.cpp(181,27): warning C4101: 'p12': unreferenced local variable
+C:\3388\oaweidah_Assignment_5\main.cpp(218,44): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\3388\oaweidah_Assignment_5\main.cpp(251,22): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\3388\oaweidah_Assignment_5\main.cpp(280,34): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+C:\3388\oaweidah_Assignment_5\main.cpp(362,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\3388\oaweidah_Assignment_5\main.cpp(419,53): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Generating Code...
+main.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwGetKey referenced in function "void __cdecl cameraControlsGlobe(struct GLFWwindow *,struct glm::mat<4,4,float,0> &,float &,float &,float &)" (?cameraControlsGlobe@@YAXPEAUGLFWwindow@@AEAU?$mat@$03$03M$0A@@glm@@AEAM22@Z)
+main.obj : error LNK2019: unresolved external symbol glfwGetMouseButton referenced in function "void __cdecl cameraControlsGlobe(struct GLFWwindow *,struct glm::mat<4,4,float,0> &,float &,float &,float &)" (?cameraControlsGlobe@@YAXPEAUGLFWwindow@@AEAU?$mat@$03$03M$0A@@glm@@AEAM22@Z)
+main.obj : error LNK2019: unresolved external symbol glfwGetCursorPos referenced in function "void __cdecl cameraControlsGlobe(struct GLFWwindow *,struct glm::mat<4,4,float,0> &,float &,float &,float &)" (?cameraControlsGlobe@@YAXPEAUGLFWwindow@@AEAU?$mat@$03$03M$0A@@glm@@AEAM22@Z)
+main.obj : error LNK2019: unresolved external symbol glfwGetTime referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function main
+main.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewBindBuffer referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewBufferData referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewGenBuffers referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewAttachShader referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewCompileShader referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewCreateProgram referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewCreateShader referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewDeleteShader referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewDetachShader referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewEnableVertexAttribArray referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewGetUniformLocation referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewLinkProgram referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewShaderSource referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewUniform3fv referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewUniform4fv referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewUniformMatrix4fv referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewUseProgram referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewVertexAttribPointer referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewBindVertexArray referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp___glewGenVertexArrays referenced in function main
+main.obj : error LNK2019: unresolved external symbol __imp_glewExperimental referenced in function main
+C:\3388\oaweidah_Assignment_5\externalLibs\GLEW\lib\Release\Win32\glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\3388\oaweidah_Assignment_5\externalLibs\GLFW\lib-vc2022\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\3388\oaweidah_Assignment_5\externalLibs\GLEW\lib\Release\Win32\glut32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\3388\oaweidah_Assignment_5\x64\Debug\oaweidah_Assignment_5.exe : fatal error LNK1120: 34 unresolved externals
